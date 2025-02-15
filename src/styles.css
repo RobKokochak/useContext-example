@@ -1,0 +1,31 @@
+.App {
+  font-family: monospace;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.group-header {
+  width: 10rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team {
+  border: 1px solid black;
+}
+
+h5 {
+  margin: 0.5rem;
+}
+
+select {
+  margin-bottom: 2px;
+}
